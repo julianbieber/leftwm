@@ -286,6 +286,7 @@ Currently available are `dev`, `release` and `optimized`.
    ```bash
    # With systemd logging (view with 'journalctl -f -t leftwm-worker')
    cargo build --profile optimized
+	 cargo install --path leftwm --bins
    ```
 
    For more options see [build options below](#optional-build-features).
